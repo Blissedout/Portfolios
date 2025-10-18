@@ -8,55 +8,44 @@
   <title>Website</title> 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top">
-    <div class="container bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3">
+    <div class="container">
       <a class="navbar-brand fw-bold fs-3 text-warning" href="#">
-        <i class="bi bi-person"> My Portfolio</i>
+        <i class="bi bi-person-circle"> My Portfolio</i>
       </a>
       <button class="navbar-toggler" type="button">
         <span class="navbar-toggler-icon"></span>
       
       </button>
-      <div class="collapse navbar-collapse" id="">
-      <ul class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse justify-content-center" id="navbar-nav">
+      <ul class="navbar-nav text-uppercase">
           <li class="nav-item">
-            <a class="nav-link text-light" href="index.html">Home</a>
+            <a class="nav-link px-3" href="index.html">Home</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link text-light" href="about.html">About Us</a>
+            <a class="nav-link px-3" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="contact.html">Contact</a>
+            <a class="nav-link px-3" href="services.html">Services</a>
+          </li>
+         
+            <a class="btn btn-warning text-dark fw-semibold d-none d-lg-block" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-    <section class="bg-dark text-white min-vh-100 d-flex align-items-center position-relative overflow-hidden">
-      <div class="position-absolute top-0 start-0 w-100 opacity-10">
-       <div class="position-absolute start-0 top-0 w-50 h-50 bg-primary rounded-circle" style="filter: blur(150px); transform: translate(-25%, -25%);">
-       </div>
-        <div class="position-absolute start-0 top-0 w-50 h-50 bg-warning rounded-circle" style="filter: blur(150px); transform: translate(-25%, -25%);">
-       </div>
-    </div>    
-     
-       <div class="container position-absolute text-center" style="padding-top: 80px;"> 
+   
+    <section class="container py-5 text-center">
         <div class="row align-items-center">
-          <div class="col-md-6 mb-5">
-              <P class="lead mb-4 ms-5 fs-3">Blessing Udegbuna is a final year student of outhern Delta University in Ozoro, Delta State. She's is an aspiring Java Backend developer, and is actively working towards her goals by taking classes on Front-end web development and also learning Java for backend.<br>
-              Blessing is also very reliable, trustworthy and highly skilled in HTML, CSS, BOOTSTRAP and JAVA.</P>
+          <div class="col-md-7">
+              <h2 class="text-info mb-3">About Me</h2>
+              <P class="text-light">Blessing Udegbuna is a final year student of outhern Delta University in Ozoro, Delta State. She's is an aspiring Java Backend developer, and is actively working towards her goals by taking classes on Front-end web development and also learning Java for backend.</P>
+            <p class="text-warning"> Blessing is also very reliable, trustworthy and highly skilled in HTML, CSS, BOOTSTRAP, JAVASCRIPT and JAVA-BACKEND.</P>
                <div class="d-flex flex-wrap ms-5">
             <a class="btn btn-warning  fw-bold btn-lg px-2 py-2 text-center" href="#projects">Projects</a>
            </div>
           </div>
-             <div class="position-relative">
-            <img src="assets/img/img3.jpg" class="img-fluid rounded-4 shadow-lg W-100" alt="">
-             </div>
-       
-       </div>
-      </div>
-       
   </section>
   
 </body>
